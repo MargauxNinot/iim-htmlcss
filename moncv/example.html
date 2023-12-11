@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="example.css" />
+    <link rel="stylesheet" href="framework.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>MON CV</title>
+  </head>
+  <body>
+    <!-- main qui contiendra tout le contenu de la page (donc mon cv) -->
+    <main>
+      <!-- partie de gauche -->
+      <div>
+        <!-- mon parent où se trouve mon image, mon titre et mon sous-titre -->
+        <div id="avatar" class="container">
+          <!-- ma div sous forme de rond contenant mon image -->
+          <div class="avatar"></div>
+          <!-- mon nom complet -->
+          <h2>Ilan JOURNO</h2>
+          <!-- mon sous-titre -->
+          <h4>Developer</h4>
+        </div>
+        <!-- mon parent où se txrouve "about me", "contact me" et "my skills" -->
+        <div id="skills" class="container">
+          <!-- parent de "about me" -->
+          <div class="skill-container">
+            <!-- parent de l'icon et du titre -->
+            <div class="d-flex item-center">
+              <!-- div = le rond où se trouve l'icon -->
+              <div class="icon-container">
+                <!-- mon icon -->
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <!-- mon titre -->
+              <h4 class="uppercase">About me</h4>
+            </div>
+            <!-- mon texte -->
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
+              odio aspernatur corporis quas earum deserunt nisi, quibusdam
+              maxime velit modi ipsum, adipisci obcaecati repellat iusto nemo.
+              Nihil animi quidem voluptatem?
+            </p>
+          </div>
+          <!-- parent de "contact me" -->
+          <div id="contact" class="skill-container">
+            <!-- parent de l'icon et du titre -->
+            <div class="d-flex item-center">
+              <!-- div = le rond où se trouve l'icon -->
+              <div class="icon-container">
+                <!-- mon icon -->
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <!-- mon titre -->
+              <h4 class="uppercase">Contact me</h4>
+            </div>
+            <!-- parent de mes informations -->
+            <div>
+              <!-- parent dd mon numéro de tel avec son icon -->
+              <div class="d-flex">
+                <div class="icon-container bg-white me-3">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="d-flex flex-column">
+                  <h6>Mobile:</h6>
+                  <a href="tel:+3356474189">
+                    <h6>+33 56 47 41 89</h6>
+                  </a>
+                </div>
+              </div>
+              <!-- parent de mon email avec son icon -->
+              <div class="d-flex">
+                <div class="icon-container bg-white me-3">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="d-flex flex-column">
+                  <h6>Email:</h6>
+                  <a href="mailto:contact@example.com">
+                    <h6>contact@example.com</h6>
+                  </a>
+                </div>
+              </div>
+              <!-- parent de mon website avec son icon -->
+              <div class="d-flex">
+                <div class="icon-container bg-white me-3">
+                  <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="d-flex flex-column">
+                  <h6>Website:</h6>
+                  <a href="https://www.nolina.io" target="_blank">
+                    <h6>www.nolina.io</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- parent de "my skills" -->
+          <div class="skill-container">
+            <!-- parent de l'icon et du titre -->
+            <div class="d-flex item-center">
+              <!-- div = le rond où se trouve l'icon -->
+              <div class="icon-container">
+                <!-- mon icon -->
+                <i class="fa-solid fa-list-check"></i>
+              </div>
+              <!-- mon titre -->
+              <h4 class="uppercase">My skills</h4>
+            </div>
+            <!-- parent de mes skills -->
+            <div>
+              <!-- parent de mes skills en html -->
+              <div>
+                <h6>HTML</h6>
+                <div class="progress-bar">
+                  <div class="progress-bar-inner" style="width: 70%"></div>
+                </div>
+              </div>
+              <!-- parent de mes skills en css -->
+              <div>
+                <h6>CSS</h6>
+                <div class="progress-bar">
+                  <div class="progress-bar-inner" style="width: 90%"></div>
+                </div>
+              </div>
+              <!-- parent de mes skills en javascript -->
+              <div>
+                <h6>Javascript</h6>
+                <div class="progress-bar">
+                  <div class="progress-bar-inner" style="width: 70%"></div>
+                </div>
+              </div>
+              <!-- parent de mes skills en php -->
+              <div>
+                <h6>PHP</h6>
+                <div class="progress-bar">
+                  <div class="progress-bar-inner" style="width: 30%"></div>
+                </div>
+              </div>
+              <!-- parent de mes skills en mysql -->
+              <div>
+                <h6>MySQL</h6>
+                <div class="progress-bar">
+                  <div class="progress-bar-inner" style="width: 100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- partie de droite -->
+      <div></div>
+    </main>
+  </body>
+</html>
