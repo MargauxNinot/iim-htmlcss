@@ -7,8 +7,8 @@
 
 .inline {
   display: inline;
-  background-color: lightgreen;
-  border: 1px solid black;
+  background-color: rgb(197, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   width: 200px; /* Tentative de définir une largeur */
   height: 100px; /* Tentative de définir une hauteur */
   margin: 10px;
@@ -17,8 +17,8 @@
 
 .inline-block {
   display: inline-block;
-  background-color: lightcoral;
-  border: 1px solid black;
+  background-color: rgb(255, 178, 178);
+  border: 1px solid rgb(255, 255, 255);
   width: 200px; /* Définition d'une largeur */
   height: 100px; /* Définition d'une hauteur */
   margin: 10px;

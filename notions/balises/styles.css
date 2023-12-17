@@ -5,7 +5,7 @@ body {
 header,
 nav,
 footer {
-  background-color: lightgray;
+  background-color: rgb(186, 245, 255);
   padding: 10px;
   text-align: center;
 }
@@ -20,4 +20,7 @@ aside {
   margin-bottom: 10px;
 }
 
-/* Ajoutez ici plus de styles pour embellir et différencier les sections */
+.navbar {
+  background-color: rgb(230, 102, 123);
+}
+Ajoutez ici plus de styles pour embellir et différencier les sections */

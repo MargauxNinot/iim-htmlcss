@@ -1,0 +1,26 @@
+
+/* Couleur du texte pour différents éléments */
+h1 {
+    color: #ffa7c5; /* Rouge orangé */
+}
+
+h2 {
+    color: #93d4ff; /* Bleu indigo */
+}
+
+p {
+    color: #4CAF50; /* Vert */
+}
+
+a {
+    color: #FF9800; /* Orange */
+}
+
+/* Couleur de fond pour les éléments avec texte */
+body {
+    background-color: #f77b7b; /* Gris clair */
+}
+
+ul {
+    background-color: #EEEEEE; /* Gris plus clair pour les listes */
+}
